@@ -1,6 +1,6 @@
 .main{
   color:white;
-  background-image: url("/images/backgrounds/h_img.jpg");
+  background-image: url("../images/backgrounds/h_img.jpg");
   text-align: center;
   background-repeat: no-repeat;
   padding-top:16%;
@@ -35,7 +35,7 @@ font-weight: bolder;
   width:90%;
 }
 .services{
-  background-image: url("/images/backgrounds/s_image.jpg");
+  background-image: url("../images/backgrounds/s_image.jpg");
   background-size: cover;
   padding:50px;
   text-align: center;
