@@ -1,0 +1,16 @@
+.main{
+  background-image: url("/images/backgrounds/h_img.jpg");
+  background-size: cover;
+  height: 650px;
+  color: white;
+  padding-top: 16.5%;
+  text-align: center;
+}
+#mouse{
+  padding-top: 11%;
+}
+#h1 h1{
+padding-top: 2%;
+font-size:40px;
+font-weight: bolder;
+}
