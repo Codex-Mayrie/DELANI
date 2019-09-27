@@ -1,7 +1,7 @@
 .main{
   background-image: url("/images/backgrounds/h_img.jpg");
   background-size: cover;
-  height: 650px;
+  height: 800px;
   color: white;
   padding-top: 16.5%;
   text-align: center;
@@ -13,4 +13,26 @@
 padding-top: 2%;
 font-size:40px;
 font-weight: bolder;
+}
+.about{
+  text-align: center;
+}
+#us p{
+  font-size:20px;
+}
+#ser{
+  color:black;
+}
+.services{
+  background-image: url("/images/backgrounds/s_image.jpg");
+  background-size: cover;
+  padding:50px;
+  text-align: center;
+}
+.services p{
+  font-size: 20px;
+  color: white;
+}
+.services h1{
+  color: white;
 }
