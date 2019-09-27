@@ -1,5 +1,5 @@
 .main{
-  background-image: url("/images/backgrounds/h_img.jpg");
+  background-image: url("./images/backgrounds/h_img.jpg");
   background-size: cover;
   height: 800px;
   color: white;
@@ -24,7 +24,7 @@ font-weight: bolder;
   color:black;
 }
 .services{
-  background-image: url("/images/backgrounds/s_image.jpg");
+  background-image: url("./images/backgrounds/s_image.jpg");
   background-size: cover;
   padding:50px;
   text-align: center;
