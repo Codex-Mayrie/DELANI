@@ -55,3 +55,28 @@ font-weight: bolder;
 .pot{
   text-align: center;
 }
+#ct{
+  color: white;
+}
+.form text{
+  margin-left: 19%;
+  background: tan;
+  padding: 6px;
+}
+#textarea{
+  margin-left: 20%; 
+  background:tan;
+  height: 200px; 
+  width: 57%;
+}
+.contact{
+  background-image: url(/images/backgrounds/h_img.jpg);
+  background-size: cover;
+  text-align: center;
+  background-position: fixed;
+  background-repeat: no-repeat; 
+  padding: 6%; 
+}
+.form placeholder{
+   color:white;
+  }
