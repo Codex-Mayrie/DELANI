@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 .main{
   color:white;
   background-image: url("../images/backgrounds/h_img.jpg");
@@ -6,6 +9,7 @@
   padding-top:16%;
  background-size: cover;
  height:100vh;
+ margin-top: 50px;
 }
 #mouse{
   padding-top: 11%;
@@ -21,24 +25,35 @@ font-weight: bolder;
 #us p{
   font-size:20px;
 }
-#ser{
-  color:black;
-}
 
 #do{
   text-align: center;
 }
-.row{
-  margin-top: 20px;
+.servicesdesc{
+  display: none;
 }
-.col-md-3 img{
-  width:90%;
+.work-heading {
+  display: none;
+  background-color: white;
+  opacity: 0.8;
+  z-index: 1;
+  font-size: 30px;
+  height: 100%;
+  width: 100%;
+  padding-top: 30%;
+  padding-right: 15%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 .services{
   background-image: url("../images/backgrounds/s_image.jpg");
   background-size: cover;
   padding:50px;
   text-align: center;
+  margin-top: 50px;
 }
 .services p{
   font-size: 20px;
@@ -47,30 +62,34 @@ font-weight: bolder;
 .services h1{
   color: white;
 }
-.activities{
-  text-align: center;
-  display: flex;
-  flex-direction: row;
+#ser{
+  color:black;
 }
 .pot{
   text-align: center;
+}
+#do>h1{
+  margin-top: 50px;
+}
+.pot>h1{
+  margin-top: 50px;
 }
 #ct{
   color: white;
 }
 .form text{
   margin-left: 19%;
-  background: tan;
+  background:white;
   padding: 6px;
 }
 #textarea{
   margin-left: 20%; 
-  background:tan;
+  background:white;
   height: 200px; 
   width: 57%;
 }
-.contact{
-  background-image: url(/images/backgrounds/h_img.jpg);
+.contacts{
+  background-image: url("../images/backgrounds/c_image.jpg");
   background-size: cover;
   text-align: center;
   background-position: fixed;
@@ -78,5 +97,19 @@ font-weight: bolder;
   padding: 6%; 
 }
 .form placeholder{
-   color:white;
-  }
+   color:transparent;
+  } */
+.icons{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.icons>img{
+  margin-left: 20px;
+}
+
+#copyright{
+  text-align: center;
+  margin-top:70px;
+}
