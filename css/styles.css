@@ -29,9 +29,9 @@ font-weight: bolder;
 #do{
   text-align: center;
 }
-.servicesdesc{
+/* .servicesdesc{
   display: none;
-}
+} */
 .work-heading {
   display: none;
   background-color: white;
