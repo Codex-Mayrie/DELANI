@@ -79,14 +79,14 @@ font-weight: bolder;
 }
 .form text{
   margin-left: 19%;
-  background:white;
   padding: 6px;
+  background-color:transparent;
 }
 #textarea{
   margin-left: 20%; 
-  background:white;
   height: 200px; 
   width: 57%;
+  background-color:transparent;
 }
 .contacts{
   background-image: url("../images/backgrounds/c_image.jpg");
@@ -94,6 +94,7 @@ font-weight: bolder;
   text-align: center;
   background-position: fixed;
   background-repeat: no-repeat; 
+  background-color:transparent;
   padding: 6%; 
 }
 .contacts h1{
@@ -102,6 +103,12 @@ font-weight: bolder;
 .form placeholder{
    color:transparent;
   } 
+label{
+  color:white;
+}
+input{
+  background-color:transparent;
+}
 .icons{
   display: flex;
   justify-content: center;
