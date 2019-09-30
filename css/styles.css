@@ -96,6 +96,9 @@ font-weight: bolder;
   background-repeat: no-repeat; 
   padding: 6%; 
 }
+.contacts h1{
+  color:white;
+}
 .form placeholder{
    color:transparent;
   } 
